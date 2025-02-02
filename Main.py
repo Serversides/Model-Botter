@@ -53,7 +53,6 @@ for i, roblosecurity_cookie in enumerate(cookies):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0 (Edition Campaign 34)",
         }
 
-        # First request: Get CSRF Token
         response = requests.post(token, headers=headers, timeout=30)
 
         if response.status_code == 403 and "X-CSRF-TOKEN" in response.headers:
@@ -66,7 +65,6 @@ for i, roblosecurity_cookie in enumerate(cookies):
 
         headers["X-CSRF-TOKEN"] = csrf_token
 
-        # Get user info
         response = requests.get(auth, headers=headers, timeout=30)
 
         if response.status_code == 200:
@@ -103,7 +101,6 @@ for i, roblosecurity_cookie in enumerate(cookies):
             print(response.text)
             continue
 
-        # Vote for the model
         response = requests.post(like.format(asset_id=asset_id), headers=headers, timeout=30)
 
         if response.status_code == 200:
