@@ -1,5 +1,5 @@
 # Model-Botter
-A free-to-use model botter founded by https://www.youtube.com/@BreadBars
+A free-to-use model botter founded by breadbars
 
 ### HOW TO DOWNLOAD:
 
@@ -15,3 +15,5 @@ After installing the pips. Run the main.py file.
 - Enter cookie: (anything)
 
 - and boom!
+
+[MADE FOR ROBLOX ONLY]
