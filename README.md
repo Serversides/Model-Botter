@@ -17,3 +17,11 @@ After installing the pips. Run the main.py file.
 - and boom!
 
 [MADE FOR ROBLOX ONLY]
+
+### BENEFITS:
+
+- Get your model instantly popular in the toolbox.
+- Models can contain backdoors which isn't my responsibility.
+- Help other people and show them how you did this by sending this github page.
+
+ⓒ ALL RIGHTS RESERVED
