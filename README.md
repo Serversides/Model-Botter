@@ -5,7 +5,7 @@ A free-to-use [model botter](https://www.youtube.com/watch?v=jpXGJn_RBMY) founde
 
 - Install the pips in the requirements.txt file
 you can Install them by running this command as an example:
-```pip install PIPNAME```
+```npm install {PACKAGES}```
 
 ### HOW TO USE:
 
