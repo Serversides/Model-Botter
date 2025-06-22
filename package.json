@@ -1,0 +1,17 @@
+{
+  "name": "roblox-auto-buyer",
+  "version": "1.0.0",
+  "description": "Automatically purchases and likes a Roblox model using cookies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "breadbars",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "noblox.js": "^4.14.0",
+    "readline": "^1.3.0"
+  }
+}
